@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Passave"
+theme = "hugo-xmin"
+
+# theme = "hugo-bare-min-theme"
+# [module]
+#   [[module.imports]]
+#     path = "github.com/kaushalmodi/hugo-bare-min-theme"
+

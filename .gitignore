@@ -1,0 +1,9 @@
+
+.DS_Store
+stepzen/config.yaml
+/public/
+.env
+/node_modules/
+/content/blog/*.md
+# Local Netlify folder
+.netlify
