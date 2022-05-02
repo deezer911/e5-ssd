@@ -1,4 +1,4 @@
-schema @sdl(files: ["post.graphql", "category.graphql"]) {
+schema @sdl(files: ["post.graphql", "category.graphql", "account.graphql"]) {
     query: Query
 }
 

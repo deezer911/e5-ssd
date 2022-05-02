@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build": "node pullContent.js && hugo",
+        "dev": "node pullContent.js && hugo serve"
+    }
+}
+

@@ -1,0 +1,14 @@
+type Account {
+    id: ID!
+    username: String!
+    password: String!
+    email: String!
+}
+
+type Query {
+    getAccounts: [Account]
+    @dbquery(type: "mysql", table: "accounts", configuration: "mysql_config")
+    getAccountsByID(id: ID!): Post
+    @dbquery(type: "mysql", table: "accounts", configuration: "mysql_config")
+}
+
