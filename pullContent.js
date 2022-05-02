@@ -19,19 +19,18 @@ const data = JSON.stringify({
 
 // const data = JSON.stringify({
 //     query: `{
-//         getPosts {
-//             Accounts {
-//                 idAccounts
-//                 username
-//                 password
-//                 email
-//             }
+//         getAccounts {
+//             id
+//             username
+//             password
+//             email
 //         }
 //     }`,
 // });
 
 const markdownFileTemplate = (post, categories) => `
 ---
+account: ${account.name}
 title: ${post.title}
 categories:  ${categories}
 published: ${post.published}
@@ -43,6 +42,7 @@ ${post.body}
 const options = {
     hostname: 'hellersdorf.stepzen.net',
     path: '/netlify/passave/__graphql',
+
     // hostname: 'eu-cdbr-west-02.cleardb.net',
     // user: 'b0fd8124c08313',
     // password: '25d41bba',

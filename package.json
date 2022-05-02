@@ -2,6 +2,8 @@
     "scripts": {
         "build": "node pullContent.js && hugo",
         "dev": "node pullContent.js && hugo serve"
+    },
+    "dependencies": {
+        "@remotesynth/stepzen-content-pull": "^1.1.13"
     }
 }
-
