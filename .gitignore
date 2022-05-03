@@ -1,6 +1,6 @@
 
 .DS_Store
-stepzen/config.yaml
+# stepzen/config.yaml
 /public/
 .env
 /node_modules/

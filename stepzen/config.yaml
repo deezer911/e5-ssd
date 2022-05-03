@@ -1,0 +1,6 @@
+configurationset:
+  - configuration:
+      name: mysql_config
+      dsn: b0fd8124c08313:25d41bba@tcp(eu-cdbr-west-02.cleardb.net)/heroku_4c75c660385627e
+      # mysql://b0fd8124c08313:25d41bba@eu-cdbr-west-02.cleardb.net/heroku_4c75c660385627e?reconnect=true
+

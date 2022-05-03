@@ -35,7 +35,6 @@ const options = {
     'Content-Type': 'application/json',
     'Content-Length': data.length,
     Authorization: 'Apikey ' + process.env.STEPZEN_API_KEY,
-    // Authorization: 'Apikey hellersdorf::stepzen.net+1000::1f0d97bb8ce3431c80ba7c33ee8dd8887b76203f962bd7de7c3f9cfbf8806da0',
     'User-Agent': 'Node',
   },
 };
