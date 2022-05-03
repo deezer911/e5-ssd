@@ -1,7 +1,7 @@
-baseURL = "https://e5-ssd.netlify.app/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Passave"
-theme = "hugo-xmin"
+title = "Pass Saver"
+theme = "hugo-vitae"
 
 # theme = "hugo-bare-min-theme"
 # [module]
