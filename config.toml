@@ -1,6 +1,6 @@
 baseURL = "https://e5-ssd.netlify.app/"
-languageCode = "en-us"
-title = "Passave"
+languageCode = "eu-fr"
+title = "Portfolio"
 theme = "hugo-vitae"
 
 # theme = "hugo-bare-min-theme"
