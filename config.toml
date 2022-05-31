@@ -1,7 +1,8 @@
-baseURL = "https://e5-ssd.netlify.app/"
+baseURL = "https://portfolio-ssd.netlify.app/"
 languageCode = "eu-fr"
 title = "Portfolio"
 theme = "hugo-vitae"
+avatar = "/img/photo_sdz.png"
 
 # theme = "hugo-bare-min-theme"
 # [module]
